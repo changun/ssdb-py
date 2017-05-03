@@ -1,6 +1,8 @@
 #coding=utf-8
 from __future__ import with_statement
-from itertools import chain, starmap, izip_longest
+from itertools import chain, starmap
+# the izip_longest has been changed to zip_longest
+from itertools import zip_longest as izip_longest
 import datetime
 import sys
 import warnings
